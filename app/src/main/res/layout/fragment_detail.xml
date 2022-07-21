@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    tools:context="com.itpeople.sample.mvvm.ui.view.fragment.MainFragment">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="230dp">
+        <ImageView
+            android:id="@+id/ivUserImage"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_margin="20dp"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/ic_launcher"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvAge"
+            android:elevation="12dp"
+            android:background="@drawable/tv_round_bg"
+            android:text="20"
+            android:padding="12dp"
+            android:textSize="14sp"
+            android:textColor="@color/black"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:textStyle="bold"
+            />
+    </RelativeLayout>
+
+
+
+    <View
+        android:layout_width="match_parent"
+        android:background="@color/black"
+        android:layout_margin="10dp"
+        android:layout_height="2dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:padding="10dp"
+        android:id="@+id/tvEmail"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:padding="10dp"
+        android:id="@+id/tvDate"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:padding="10dp"
+        android:id="@+id/tvDob"
+        />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Location"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="17dp"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:background="@color/black"
+        android:layout_margin="10dp"
+        android:layout_height="2dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:padding="10dp"
+        android:id="@+id/tvCity"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:padding="10dp"
+        android:id="@+id/tvState"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:padding="10dp"
+        android:id="@+id/tvCountry"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:padding="10dp"
+        android:id="@+id/tvPostalCode"
+        />
+
+</LinearLayout>
